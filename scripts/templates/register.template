@@ -1,0 +1,7 @@
+import iocContainer from 'features/feature-ioc/inversifyContainer';
+import { $NAMEServiceFactory } from './$NAMEService';
+import { $UPPERNAMEServiceSymbol } from './types';
+
+export const register = () => {
+  iocContainer.register($UPPERNAMEServiceSymbol, $NAMEServiceFactory);
+};

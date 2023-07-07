@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "jsx": "preserve",
+    "noImplicitAny": false,
+    "outDir": "dist/",
+    "baseUrl": "src",
+    "paths": {},
+    "types": [
+      "node",
+      "jest",
+      "@testing-library/jest-dom",
+      "cypress-react-selector",
+      "cypress-localstorage-commands",
+      "cypress-real-events",
+      "cypress-plugin-snapshots"
+    ]
+  },
+  "include": [
+    "index.d.ts",
+    "src",
+    "src/App.cy.tsx",
+    "cypress/**/*.ts",
+    "e2e/flows/**/*.ts",
+    "e2e/real-e2e/**/*.ts"
+  ],
+  "exclude": ["node_modules"]
+}

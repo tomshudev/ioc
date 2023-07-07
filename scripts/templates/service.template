@@ -1,0 +1,6 @@
+import { I$UPPERNAMEService } from './types';
+
+export const $NAMEServiceFactory = (): I$UPPERNAMEService => {
+  return {
+  };
+};

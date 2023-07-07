@@ -1,0 +1,36 @@
+{
+  "name": "ioc",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@sentry/react": "^7.57.0",
+    "axios": "^1.4.0",
+    "inquirer": "^9.2.7",
+    "inversify": "^6.0.1",
+    "react": "^18.2.0",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.0",
+    "react-scripts": "^5.0.1",
+    "typescript": "^5.1.3"
+  },
+  "scripts": {
+    "generate-feature": "node ./scripts/generateFeature.mjs"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

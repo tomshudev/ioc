@@ -1,0 +1,4 @@
+export interface I$UPPERNAMEService {
+}
+
+export const $UPPERNAMEServiceSymbol = '$UPPERNAMEServiceSymbol';
